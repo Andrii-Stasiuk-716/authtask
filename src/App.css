@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +36,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header{
+ display:flex;
+ justify-content: center;
+ height: 10vh;
+ width: 100%;
+ background-color: #5d723d
+}
+
+.nav__login-logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__login-logout button{
+  cursor: pointer;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+
+.user-page-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 2rem 0;
+}
+form input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+form button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 50%;
+  height: 1.5rem;
+  border-radius: 5px;
 }
